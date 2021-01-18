@@ -15,7 +15,7 @@ docker build -f dockerfile -t twbworld/hugo-go-git:latest .
 
 ### Command line
 ```shell
-docker run --rm -it --name hugo_container_name -p 1313:1313 -v ${PWD}:/src:rw twbworld/hugo-go-git:latest
+docker run --rm -it --name hugo -p 1313:1313 -v ${PWD}:/src:rw twbworld/hugo-go-git:latest
 ```
 
 ### docker-compose
@@ -25,7 +25,7 @@ version: "3.8"
 services:
     blog:
         image: twbworld/hugo-go-git:latest
-        container_name: hugo_container_name
+        container_name: hugo
         command: server
         ports:
             - 1313:1313 #如果宿主机端口不是1313,会出现调试模式失效(不能自动刷新)的问题
