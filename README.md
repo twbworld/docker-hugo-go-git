@@ -2,7 +2,7 @@
 **docker-hugo-go-git**
 ===========
 
-[![](https://img.shields.io/badge/docker-hugo_go_git-099cec?logo=docker)](https://hub.docker.com/r/twbworld/hugo-go-git)
+[![](https://img.shields.io/badge/docker-hugo%2d-go%2d-git-099cec?logo=docker)](https://hub.docker.com/r/twbworld/hugo-go-git)
 
 
 ## 构建镜像
