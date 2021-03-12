@@ -3,6 +3,7 @@
 ===========
 
 [![](https://img.shields.io/badge/docker-hugo%2d-go%2d-git-099cec?logo=docker)](https://hub.docker.com/r/twbworld/hugo-go-git)
+[![](https://img.shields.io/github/license/twbworld/docker-hugo-go-git)](https://github.com/twbworld/docker-hugo-go-git/blob/master/LICENSE)
 
 
 ## 构建镜像
